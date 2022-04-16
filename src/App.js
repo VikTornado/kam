@@ -1,11 +1,14 @@
 import './App.css';
+import Header from "../src/Components/Header/Header";
 
 const App = () => {
   return (
-      <div className="App">
-        <h1>Hello world!</h1>
+      <div>
+          <Header/>
+          <p>kjsdcbksdjcb</p>
       </div>
-  );
+
+);
 }
 
 export default App;
