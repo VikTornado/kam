@@ -1,9 +1,16 @@
 import React from "react";
+import './Header.css';
 
 
 const Header = () => {
     return(
-    <div className={"App-header"}>dskовл оло</div>
+    <header className={"App-header"}>
+        <navBar className={"navBar"}>
+            <div className={"App-logo"}>
+                <img className={"App-logo"} src={"./logo192.png"}/>
+            </div>
+        </navBar>
+    </header>
     )
 }
 export default Header

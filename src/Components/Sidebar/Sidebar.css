@@ -1,0 +1,13 @@
+.sidebar{
+    background-color: gold;
+}
+.sidebar ul{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar__item{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+}
